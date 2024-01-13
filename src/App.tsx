@@ -24,20 +24,23 @@ function App() {
           </div>
         </div>
       </section>
-      <section className="top-[10vh] w-[100vw] glass-bg flex p-12 justify-around overflow-hidden">
-        <img src={image1} alt="" />
-        <div className="flex flex-col gap-4 justify-center w-[500px] itemss">
-          <h1 className="text-4xl font-bold">HEY THERE</h1>
-          <p className="text-2xl font-semibold">
-            I'm Alex Turner, a seasoned UI/UX designer based in San Francisco,
-            with over 7 years of experience shaping digital experiences.
-          </p>
-          <span className="text-lg font-normal">
-            I've collaborated with startups, agencies, and in-house teams,
-            cultivating a design philosophy that seamlessly blends curiosity,
-            empathy, and whimsy. My passion lies in transforming complex
-            challenges into elegant and user-centric solutions.
-          </span>
+      <section className=" top-36 w-[100vw] overflow-hidden second-section flex justify-center">
+        <div className="w-[90vw] flex p-12 justify-around glass-bg h-[100vh]">
+          <img src={image1} alt="" className="w-auto h-full"/>
+          <div className=" relative flex flex-col gap-4                                                                               justify-center w-[500px]">
+            <h1 className="text-4xl font-bold">HEY THERE</h1>
+            <p className="text-2xl font-semibold">
+              I'm Alex Turner, a seasoned UI/UX designer based in San Francisco,
+              with over 7 years of experience shaping digital experiences.
+            </p>
+            <span className="text-lg font-normal">
+              I've collaborated with startups, agencies, and in-house teams,
+              cultivating a design philosophy that seamlessly blends curiosity,
+              empathy, and whimsy. My passion lies in transforming complex
+              challenges into elegant and user-centric solutions.
+            </span>
+          </div>
+          <div className="absolute bottom-0 right-0 glow-1"></div>
         </div>
       </section>
       {/* Additional sections or content as needed */}
