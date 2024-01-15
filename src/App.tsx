@@ -36,7 +36,7 @@ function App() {
             <span className="text-lg font-normal">
               I've collaborated with startups, agencies, and in-house teams,
               cultivating a design philosophy that seamlessly blends curiosity,
-              empathy, and whimsy. My passion lies in transforming complex
+              {/* empathy, and whimsy. My passion lies in transforming complex */}
               challenges into elegant and user-centric solutions.
             </span>
           </div>
