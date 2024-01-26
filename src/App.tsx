@@ -24,7 +24,7 @@ function App() {
           </div>
         </div>
       </section>
-      <section className=" top-36 w-[100vw] overflow-hidden second-section flex justify-center">
+      <section className="w-[100vw] overflow-hidden second-section flex justify-center">
         <div className="w-[90vw] flex p-12 justify-around glass-bg h-[100vh]">
           <img src={image1} alt="" className="w-auto h-full"/>
           <div className=" relative flex flex-col gap-4                                                                               justify-center w-[500px]">
@@ -40,10 +40,12 @@ function App() {
               challenges into elegant and user-centric solutions.
             </span>
           </div>
-          <div className="absolute bottom-0 right-0 glow-1"></div>
         </div>
+        <div className="absolute left-4 top-20 glow-1 z-50"></div>
       </section>
-      {/* Additional sections or content as needed */}
+      <section className="w-[90vw] h-[100vh] p-4">
+        <h1 className=" font-bold text-3xl">PROJECTS</h1>
+      </section>
     </div>
   );
 }
