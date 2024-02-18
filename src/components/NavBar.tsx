@@ -3,7 +3,7 @@ import logo from '../assets/logo.png';
 import { Menu, MoveRightIcon } from 'lucide-react';
 
 function NavBar() {
-  const menuItems = ['ABOUT', 'PROJECTS', 'PLAYGROUND', 'FAQ'];
+  const menuItems = ['ABOUT', 'PROJECTS', 'EXPERIENCE', 'CONNECT ME'];
 
   return (
     <nav className='z-[100] fixed flex h-[56px] w-[90vw] border-white rounded-lg glass-bg top-3 items-center pl-5 justify-between' >
